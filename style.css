@@ -1,0 +1,41 @@
+body{
+background-color: aquamarine;
+display: flex; /*content ko center me laate hai*/
+justify-content: center;
+align-items:center;
+height: 100vh;
+}
+#container{
+    color: blueviolet;
+}
+
+.digit{
+    font-size: 200px;
+    font-weight: bold;
+
+}
+
+.txt{
+    font-size: 50px;
+    font-weight: bold;
+}
+#btn-container{
+    text-align: center;
+    margin-top: 30px;
+}
+.btn{
+    padding: 10px 25px;
+ font-size: 15px;
+    margin: 0px 10px;
+    color: white;
+    cursor: pointer;
+}
+#start{
+background-color: chartreuse;
+}
+#stop{
+background-color: rgb(177, 111, 177);
+}
+#reset{
+background-color: rgb(247, 178, 248);
+}
